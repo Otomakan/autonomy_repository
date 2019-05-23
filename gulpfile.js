@@ -17,7 +17,8 @@ const templatePrefixer = require('./gulpUtils/templatePrefixer.js')
 const jsonLoader =  require('./gulpUtils/jsonLoader.js')
 const rename = require('gulp-rename')
 const htmlmin = require('gulp-htmlmin');
-const indexIsSoSpecial = require('./gulpUtils/indexIsSoSpecial')
+  var sitemap = require('gulp-sitemap');
+  const indexIsSoSpecial = require('./gulpUtils/indexIsSoSpecial')
 const AUTOPREFIXER_BROWSERS = [
   'ie >= 10',
   'ie_mob >= 10',
@@ -132,7 +133,18 @@ gulp.task('indexhtml',()=>
   .pipe(indexIsSoSpecial())
   .pipe(gulp.dest('dist/'))
   )
+
+ 
+gulp.task('sitemap', function () {
+    gulp.src('dist/**/**/*.html', {
+            read: false
+        })
+        .pipe(sitemap({
+            siteUrl: 'https://autonomy.laeeto.com'
+        }))
+        .pipe(gulp.dest('dist/'));
+});
 // Remember to put imagemin later on in
-gulp.task('default',['main-bundle','serve', 'fonts', 'html','indexhtml','htmlutils','jsonhtml','compress','clean-css'])
+gulp.task('default',['main-bundle','serve', 'fonts', 'html','indexhtml','htmlutils','jsonhtml','compress','clean-css','sitemap'])
 
 
