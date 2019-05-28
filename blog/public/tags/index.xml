@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Autonomy Power</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Autonomy Power</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 May 2019 12:08:04 +0900</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>tagA</title>
+      <link>http://localhost:1313/tags/taga/</link>
+      <pubDate>Mon, 27 May 2019 12:08:04 +0900</pubDate>
+      
+      <guid>http://localhost:1313/tags/taga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tagB</title>
+      <link>http://localhost:1313/tags/tagb/</link>
+      <pubDate>Mon, 27 May 2019 12:08:04 +0900</pubDate>
+      
+      <guid>http://localhost:1313/tags/tagb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AMP</title>
+      <link>http://localhost:1313/tags/amp/</link>
+      <pubDate>Thu, 31 May 2018 07:11:59 +0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/amp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theme</title>
+      <link>http://localhost:1313/tags/theme/</link>
+      <pubDate>Thu, 31 May 2018 07:11:59 +0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/theme/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

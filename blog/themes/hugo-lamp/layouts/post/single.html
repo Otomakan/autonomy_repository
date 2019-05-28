@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <div class="body-wrapper">
+    <div class='container-template'>
+        <div class='page-title'>
+            <div class="image-container image-loader" >
+                <img-amp src="##mainimage##"/>
+            </div>
+            <div class="title-text">
+                <h1 >{{ .Title }}</h1>
+        </div>
+            <div class="page-content">
+                <p>{{ .Content }}</p>
+            </div>
+{{ end }}

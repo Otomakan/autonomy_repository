@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autonomy Power</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Autonomy Power</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 May 2019 12:08:04 +0900</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/post/first-post/</link>
+      <pubDate>Mon, 27 May 2019 12:08:04 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/first-post/</guid>
+      <description>This is the content of my new blog Post</description>
+    </item>
+    
+    <item>
+      <title>First Test</title>
+      <link>http://localhost:1313/autonomy-blog/test/</link>
+      <pubDate>Thu, 31 May 2018 07:11:59 +0700</pubDate>
+      
+      <guid>http://localhost:1313/autonomy-blog/test/</guid>
+      <description>Getting started with AMP Implement these key steps to get up and running with AMP:
+ Create your AMP pages Validate your AMP pages Make your content discoverable  Using AMP day-to-day Keep your AMP momentum going with all the resources AMP has to offer.
+Create your AMP pages See the relevant sections below for: using a CMS, starting from scratch, or converting existing content</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with AMP</title>
+      <link>http://localhost:1313/amp/getting-started/</link>
+      <pubDate>Thu, 31 May 2018 07:11:59 +0700</pubDate>
+      
+      <guid>http://localhost:1313/amp/getting-started/</guid>
+      <description>Getting started with AMP Implement these key steps to get up and running with AMP:
+ Create your AMP pages Validate your AMP pages Make your content discoverable  Using AMP day-to-day Keep your AMP momentum going with all the resources AMP has to offer.
+Create your AMP pages See the relevant sections below for: using a CMS, starting from scratch, or converting existing content</description>
+    </item>
+    
+    <item>
+      <title>Cover Post Example</title>
+      <link>http://localhost:1313/post/cover-example/</link>
+      <pubDate>Mon, 28 May 2018 14:09:24 +0700</pubDate>
+      
+      <guid>http://localhost:1313/post/cover-example/</guid>
+      <description>Cover post example Cover post example</description>
+    </item>
+    
+  </channel>
+</rss>
